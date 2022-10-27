@@ -937,10 +937,12 @@ input[type="number"]:invalid {
 input[type="email"]{
     width: 62%;
     height: 4.2rem;
+    padding-left: 1rem;
     border: none;
     outline: none;
-   padding-left: 1rem;
+    font-size: 1.6rem;
     background-color: var(--clr-black);
+    color: var(--clr-light_gray);
     border: 1px solid var(--clr-orange_dark);
 }
 .btn-submit{
