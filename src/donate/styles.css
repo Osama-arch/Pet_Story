@@ -348,7 +348,7 @@ line-height: var(--lh-120);
     grid-column: 4/ span 6;
     grid-row: 1/span 3;
     background: url(../../dis/icons/animals-widget.svg) no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     width: 100%;
 }
 
@@ -540,8 +540,10 @@ input[type="number"]:invalid {
     height: 53px;
     width: 100%;
     background-color: transparent;
+    outline: none;
     border: none;
     border-radius: 2px;
+    font-size: 2rem;
 }
 
 .another-amount input::-webkit-outer-spin-button,
